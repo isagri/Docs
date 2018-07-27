@@ -1,0 +1,24 @@
+1 prg qui crée les Fichiers json à partir des fichiers orm
+Person:
+	good:
+		name: "Henri"
+		age:  26
+	bad:
+		name: 27
+		age:  "bob"
+		
++ serializer / deserializer pour créer/ récupérer les fichiers json: 
+https://symfony.com/doc/current/components/serializer.html		
+		
+
+
+récupérer un fichier yaml dans un tableau
+http://symfony.com/doc/current/components/yaml.html
+		
+Ou :		
+https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/yaml-mapping.html#yaml-mapping		
+
+
+La question est va t on garder les fichiers orm et les maintenir ?
+si oui, l'automatisation peut être intéressante
+si non, il faut faire 1 prg de test unitaire par model.
